@@ -1,3 +1,7 @@
+# Live Hosted Project
+Access URL:-
+https://weather-app-2ed00.firebaseapp.com/
+
 # Weather2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
