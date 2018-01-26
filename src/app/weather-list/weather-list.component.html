@@ -1,0 +1,6 @@
+<div class="container-fluid">
+    <app-weather-search> </app-weather-search>
+  <section class="weather-list">
+    <app-weather-item *ngFor="let weather_element of weather_elements" [item]="weather_element"></app-weather-item>
+  </section>
+</div>

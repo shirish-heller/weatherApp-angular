@@ -1,0 +1,15 @@
+<section class="weatherSearch">
+  <form (ngSubmit)="onSubmit(f.value)" #f="ngForm">
+    <div class="form-group">
+        <label for="city"> CITY </label>
+        <input id="city" type="text" #locName="ngModel" name="location" placeholder="Search for City here..." ngModel required/>
+        <button class="btn btn-primary" [disabled]="!f.valid" type="submit"> ADD CITY </button>
+    </div>
+    
+  </form>
+  <div>
+    <span class="text-left">
+      City Found: {{f.value.location}}
+    </span>
+  </div>
+</section>

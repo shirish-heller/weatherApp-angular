@@ -1,0 +1,22 @@
+<article class="weather-element">
+  <div class="close">
+      <i class="fa fa-window-close closeDiv" (click)="onCardClose($event)"></i>
+  </div>
+  
+  <div class="col-1 cardDetails">
+      <h3 class="cityNameClass">{{weatherItem.cityName}} </h3>
+      <p class="info">{{weatherItem.description}} </p>
+     
+  </div>
+  <div class="text-right col-1">
+      <span class="temperature"> {{weatherItem.temperature}} <i class="fa fa-thermometer-half" style="color:coral"></i> </span>
+
+  </div>
+  <!-- <button (click)="onCardClose()"> -->
+
+  <!-- </button> -->
+</article>
+        
+ 
+
+

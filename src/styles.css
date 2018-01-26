@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+.col-1 {
+    display: inline-block;
+    width: 40%;
+  }
+  
+  .col-1 h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 22px;
+  }
+  
+  .col-2 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    text-align: right;
+  }
+  
+  .temperature {
+    font-size: 22px;
+  }
+  .col-1 {
+    display: inline-block;
+    width: 40%;
+  }
+  
+  .col-1 h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 22px;
+  }
+  
+  .col-2 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    text-align: right;
+
+  }
+  
+  .temperature {
+    font-size: 22px;
+  }
+
+  
+.weather-list {
+    margin: 20px auto;
+    width: 40%;
+  }
+  
+.weather-element {
+    box-shadow: 1px 1px 6px #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    width: 84%;
+    float:left;
+    
+  }
+
+  .closeDiv {
+    vertical-align: top;
+    padding-left: 22px;
+  }
+
